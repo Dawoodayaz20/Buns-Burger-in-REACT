@@ -1,0 +1,39 @@
+#header{
+    background-color: #a71515;
+    color: #ffedaa;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin-bottom: 50rem;
+}
+.cart_icon{
+    position: relative;
+    transition: 1s;
+}
+.cart_icon i{
+    font-size: 20px;
+    color: #ffedaa;
+}
+.cart_icon i:hover{
+    transform: scale(1.1);
+}
+nav a{
+    color: #ffedaa;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    transition: .2s;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+nav a:hover{
+    background-color: #ffedaa;
+    color: #a71515;
+    font-weight: bolder;
+}
