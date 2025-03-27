@@ -1,0 +1,8 @@
+#menu{
+    margin-top: 10rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    z-index: 100;
+    justify-items: center;
+    justify-content: space-between;
+}

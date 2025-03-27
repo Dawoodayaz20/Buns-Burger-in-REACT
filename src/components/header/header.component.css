@@ -1,4 +1,4 @@
-#header{
+.header{
     background-color: #a71515;
     color: #ffedaa;
     position: absolute;
@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    margin-bottom: 50rem;
+    margin-bottom: 10rem;
 }
 .cart_icon{
     position: relative;
@@ -36,4 +36,10 @@ nav a:hover{
     background-color: #ffedaa;
     color: #a71515;
     font-weight: bolder;
+}
+
+#logopic{
+    clip-path: circle(50% at center);
+    height: 70px;
+    width: 70px;
 }
